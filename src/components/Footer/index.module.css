@@ -1,0 +1,20 @@
+.container {
+  background: rgba(83, 88, 96, 1);
+  padding: 30px 0 40px 0;
+  color: white;
+}
+
+.numText {
+  font-size: 30px;
+  line-height: 49px;
+}
+
+.desc {
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.address {
+  font-size: 16px;
+  line-height: 26px;
+}
