@@ -39,7 +39,10 @@ export default function Footer() {
           >
             moscow@blitz.estate
           </Link>
-          <Button style={{ width: '100%', height: 55, fontWeight: 'bold' }}>
+          <Button
+            type="default"
+            style={{ width: '100%', height: 55, fontWeight: 'bold' }}
+          >
             Заказать звонок
           </Button>
         </Flex>

@@ -1,7 +1,9 @@
 @import 'assets/fonts/geometria/fonts.css';
 
 body,
-p {
+p,
+h2,
+h1 {
   margin: 0;
 }
 

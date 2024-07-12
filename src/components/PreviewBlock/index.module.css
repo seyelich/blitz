@@ -1,0 +1,20 @@
+.title {
+  width: 590px;
+  font-size: 50px;
+  line-height: 76px;
+  font-weight: 900;
+}
+
+.subTitle {
+  font-size: 22px;
+  line-height: 36px;
+  width: 586px;
+}
+
+.test {
+  width: 376px;
+}
+
+.bottleName {
+  font-weight: bold;
+}

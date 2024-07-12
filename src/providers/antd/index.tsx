@@ -7,6 +7,7 @@ export default function AntdProvider({ children }: { children: ReactNode }) {
       theme={{
         token: {
           fontFamily: 'Geometria, sans-serif',
+          colorPrimary: 'rgba(42, 148, 226, 1)',
         },
       }}
     >
