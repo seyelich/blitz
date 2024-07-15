@@ -1,4 +1,4 @@
-import { Button, Carousel, Divider, Flex } from 'antd'
+import { Button, Carousel, Divider, Flex, Typography } from 'antd'
 import { checkboxCards } from '../../utils/constants.ts'
 import CheckboxCard from './ui/CheckboxCard'
 import ru from 'assets/images/RUSSIA.png'
@@ -21,8 +21,10 @@ export default function TestBlock() {
   }
   return (
     <Flex vertical style={{ maxWidth: 1140 }}>
-      <Flex vertical align="center" gap={20} style={{ marginBottom: 42 }}>
-        <h2 className={styles.title}>Пройдити тест из 5 вопросов</h2>
+      <Flex vertical align="center" style={{ marginBottom: 42 }}>
+        <Typography.Title level={2}>
+          Пройдити тест из 5 вопросов
+        </Typography.Title>
         <p className={styles.subTitle}>
           Мы подберём 20 покупателей готовых купить вашу недвижимость в течение
           24 часов

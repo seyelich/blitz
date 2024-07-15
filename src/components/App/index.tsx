@@ -5,6 +5,7 @@ import AntdProvider from '../../providers/antd'
 import PreviewBlock from '../PreviewBlock'
 import styles from './index.module.css'
 import TestBlock from '../TestBlock'
+import DirectionsBlock from '../DirectionsBlock'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           style={{ flex: 1, margin: '60px 0 50px 0' }}
         >
           <TestBlock />
+          <DirectionsBlock />
         </Flex>
         <Footer />
       </Flex>
