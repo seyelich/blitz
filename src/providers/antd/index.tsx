@@ -1,9 +1,11 @@
 import { ConfigProvider } from 'antd'
 import { ReactNode } from 'react'
+import ru from 'antd/locale/ru_RU'
 
 export default function AntdProvider({ children }: { children: ReactNode }) {
   return (
     <ConfigProvider
+      locale={ru}
       theme={{
         token: {
           fontFamily: 'Geometria, sans-serif',
