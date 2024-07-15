@@ -1,0 +1,23 @@
+.title {
+  font-size: 35px;
+  line-height: 50px;
+  font-weight: 900;
+}
+
+.subTitle {
+  font-size: 22px;
+  line-height: 36px;
+}
+
+.testTitle {
+  font-size: 22px;
+  line-height: 34px;
+  font-weight: 900;
+}
+
+.placeTitle {
+  margin: 25px 0 0 0;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}

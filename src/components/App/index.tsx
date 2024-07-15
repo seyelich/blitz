@@ -4,6 +4,7 @@ import { Flex } from 'antd'
 import AntdProvider from '../../providers/antd'
 import PreviewBlock from '../PreviewBlock'
 import styles from './index.module.css'
+import TestBlock from '../TestBlock'
 
 function App() {
   return (
@@ -13,7 +14,14 @@ function App() {
           <Header />
           <PreviewBlock />
         </div>
-        <div style={{ flex: 1 }}></div>
+        <Flex
+          vertical
+          align="center"
+          gap={60}
+          style={{ flex: 1, margin: '60px 0 50px 0' }}
+        >
+          <TestBlock />
+        </Flex>
         <Footer />
       </Flex>
     </AntdProvider>
