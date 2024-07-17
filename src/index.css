@@ -8,7 +8,7 @@ h1 {
 }
 
 #root {
-  font-family: 'Geometria', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Geometria, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   height: 100vh;

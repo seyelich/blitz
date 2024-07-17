@@ -11,7 +11,7 @@ export default function QuestionBlock() {
         gap={30}
       >
         <Flex vertical style={{ width: '60%' }}>
-          <Typography.Title>
+          <Typography.Title level={2}>
             Руководитель агентства
             <br /> Blitz Estate
           </Typography.Title>

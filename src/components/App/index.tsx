@@ -8,6 +8,7 @@ import TestBlock from '../TestBlock'
 import DirectionsBlock from '../DirectionsBlock'
 import ReadMoreBlock from '../ReadMoreBlock'
 import QuestionBlock from '../QuestionBlock'
+import ApartmentsBlock from '../ApartmentsBlock'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           style={{ flex: 1, marginTop: 60 }}
         >
           <TestBlock />
+          <ApartmentsBlock />
           <ReadMoreBlock />
           <DirectionsBlock />
           <QuestionBlock />

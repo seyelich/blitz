@@ -15,7 +15,7 @@ export default function ReadMoreBlock() {
         style={{ maxWidth: 1140, margin: '0 auto' }}
       >
         <Flex vertical style={{ width: '50%' }}>
-          <Typography.Title>
+          <Typography.Title level={2}>
             Blitz Estate - на рынке недвижимости с 2008 года
           </Typography.Title>
           <p className={styles.text}>

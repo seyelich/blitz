@@ -18,6 +18,13 @@ export default function AntdProvider({ children }: { children: ReactNode }) {
           Typography: {
             titleMarginBottom: 20,
           },
+          Segmented: {
+            itemSelectedBg: 'rgba(42, 148, 226, 1)',
+            itemSelectedColor: 'white',
+            itemColor: 'rgba(0, 0, 0, 1)',
+            itemHoverBg: 'rgba(246, 246, 246, 1)',
+            trackBg: 'rgba(255, 255, 255, 1)',
+          },
         },
       }}
     >
